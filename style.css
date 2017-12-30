@@ -1,3 +1,7 @@
-.hello{
+.logo{
   color: green;
+  text-shadow:  1px -1px 1px #000,
+				0px -1px 1px #000,
+			    0px  1px 1px #000,
+			    1px  1px 1px #000;
 }
