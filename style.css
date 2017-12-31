@@ -1,6 +1,16 @@
 body{
 	font: 12px Tahoma, sans-serif;
 }
+.home{
+	height: 664px;
+	width: 84.3rem;
+	background: url(images/header.jpg) no-repeat center top;
+	background-size: cover;
+	position: absolute;
+	left:0px;
+	top:0px;
+	z-index: -1;
+}
 .logo{
   color: green;
   text-shadow:  1px -1px 1px #000,
@@ -8,12 +18,27 @@ body{
 			    0px  1px 1px #000,
 			    1px  1px 1px #000;
 }
-.mainMenu ul{
+.mainMenu {
+	position: relative;
 	list-style-type: none;
+	text-align:center;
+	top: 150px;
 }
-.mainMenu li{
+.mainMenu  li{
 	display: inline-block;
 }
 .mainMenu a {
 	text-decoration: none;
+	color: white;
+	margin-right: 60px;
+	font-size: 16px;
+}
+.mainMenu a:hover{
+	color: greenyellow;
+}
+.motto > h1{
+	position: inherit;
+	color: white;
+	font-size: 80px;
+	
 }
