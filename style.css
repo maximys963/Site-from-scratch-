@@ -1,5 +1,5 @@
 body{
-	font: 12px Tahoma, sans-serif;
+	font: 12px 'Open Sans', sans-serif;
 	color: white;
 }
 .home{
@@ -7,13 +7,26 @@ body{
 	width: 84.3rem;
 	background: url(images/header.jpg) no-repeat center top;
 	background-size: cover;
+	/* display: block; */
 	position: absolute;
 	left:0px;
 	top:0px;
 	z-index: -1;
 }
+.logo{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.logo p{
+  text-align: center;
+  font-size: 52px;
+  font-family: Belinda;
+  display: block;
+  /* position: absolute; */
+}
 .mainMenu {
-	position: relative;
+	display: block;
 	list-style-type: none;
 	text-align:center;
 	top: 150px;
@@ -30,30 +43,39 @@ body{
 .mainMenu a:hover{
 	color: greenyellow;
 }
-.motto {
+.sometext {
 	text-align: center;
 	display: inline-block;
 	width: 100%;
 	height: 100%;
 }
-.motto h1{
+.sometext h1{
 	display: block;
 	color: white;
-	font-size: 80px;
-	
+	font-size: 78px;
+	font-family: 'Ubuntu', sans-serif;
 }
-.logo{
-	display: inline-block;
-	width: 100%;
-	height: 100%;
+.topButton{
+	font-family: 'Open sans', sans-serif;
+	font-size: 18px;
+	margin-top: 90px;
+	border-radius: 30px 30px 30px 30px;
+	width: auto;
+    height: auto;
+    color: white;
+	background-color: #50C3AF;
+	padding: 16px 80px;
+	border: none;
+	outline: none;
 }
-/* div{
-	position:relative;
-} */
-.logo p{
-  text-align: center;
-  font-size: 52px;
-  font-family: "Belinda";
-  display: block;
-  /* position: absolute; */
+.topButton:hover, .topButton:active{
+	background-color: greenyellow;
+	outline: none;
+	border: none;
 }
+
+@font-face {
+	font-family: Belinda;
+	src: url(fonts/belinda.otf);
+}
+
