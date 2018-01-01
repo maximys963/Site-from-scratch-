@@ -1,5 +1,6 @@
 body{
 	font: 12px Tahoma, sans-serif;
+	color: white;
 }
 .home{
 	height: 664px;
@@ -10,13 +11,6 @@ body{
 	left:0px;
 	top:0px;
 	z-index: -1;
-}
-.logo{
-  color: green;
-  text-shadow:  1px -1px 1px #000,
-				0px -1px 1px #000,
-			    0px  1px 1px #000,
-			    1px  1px 1px #000;
 }
 .mainMenu {
 	position: relative;
@@ -36,9 +30,30 @@ body{
 .mainMenu a:hover{
 	color: greenyellow;
 }
-.motto > h1{
-	position: inherit;
+.motto {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.motto h1{
+	display: block;
 	color: white;
 	font-size: 80px;
 	
+}
+.logo{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+/* div{
+	position:relative;
+} */
+.logo p{
+  text-align: center;
+  font-size: 52px;
+  font-family: "Belinda";
+  display: block;
+  /* position: absolute; */
 }
