@@ -82,10 +82,41 @@ body{
 	position: absolute;
 	top: 664px;
 	left: 0;
-
-
 }
+.professionals{
+	background: url(images/user-group.png) no-repeat center;
+}
+.amateurs{
+	background: url(images/heart.png) no-repeat center;
+}
+.foreveryone{
+	background: url(images/headset.png) no-repeat center;
+}
+.line{
+	background: url(images/line.png);
+}
+.secondTitle{
+	color: #40474e;
+}
+.secondMenu p{
+	color:#787b80;
+}
+.services-item{
+	padding: 120px 0 0 0;
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
 @font-face {
 	font-family: Belinda;
 	src: url(fonts/belinda.otf);
+}
+.clearfix:before,
+.clearfix:after{
+content: " ";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
 }
