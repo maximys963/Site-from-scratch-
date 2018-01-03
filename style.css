@@ -121,9 +121,9 @@ body{
 	line-height: 26px;
 }
 .services-item{
-	margin-left: 100px;
+	display: inline-block;
 	padding: 80px 5px 0 25px;
-	float: left;
+	/* float: left; */
 	width: 20%;
 	text-align: center;
 }
