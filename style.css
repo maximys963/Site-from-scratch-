@@ -68,11 +68,11 @@ body{
 	border: none;
 	outline: none;
 }
-.topButton:hover, .topButton:active{
-	background-color: greenyellow;
+/* .topButton:hover, .topButton:active{
+	 background-color: greenyellow; 
 	outline: none;
 	border: none;
-}
+} */
 
 .secondMenu{
 	background-color: #eeeeef;
