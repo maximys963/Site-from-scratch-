@@ -86,15 +86,26 @@ body{
 }
 .professionals{
 	background: url(images/user-group.png) no-repeat center;
-
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-size: contain;
 
 }
 .amateurs{
 	background: url(images/heart.png) no-repeat center;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-size: contain;
 
 }
 .foreveryone{
 	background: url(images/headset.png) no-repeat center;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background-size: contain;
 
 }
 .line{
