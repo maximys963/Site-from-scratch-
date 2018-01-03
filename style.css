@@ -82,29 +82,37 @@ body{
 	position: absolute;
 	top: 664px;
 	left: 0;
+	text-align: center;
 }
 .professionals{
 	background: url(images/user-group.png) no-repeat center;
+
+
 }
 .amateurs{
 	background: url(images/heart.png) no-repeat center;
+
 }
 .foreveryone{
 	background: url(images/headset.png) no-repeat center;
+
 }
 .line{
 	background: url(images/line.png);
 }
 .secondTitle{
 	color: #40474e;
+	font-size: 16px;
 }
 .secondMenu p{
 	color:#787b80;
+	font-size: 14px;
+	line-height: 26px;
 }
 .services-item{
-	padding: 120px 0 0 0;
+	padding: 140px 5px 0 25px;
 	float: left;
-	width: 33%;
+	width: 20%;
 	text-align: center;
 }
 
