@@ -2,6 +2,12 @@ body{
 	font: 12px 'Open Sans', sans-serif;
 	color: white;
 }
+body > div {
+  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
 .home{
 	height: 664px;
 	width: 100%;
@@ -67,12 +73,14 @@ body{
 	padding: 16px 80px;
 	border: none;
 	outline: none;
+    -webkit-transition: all 0.6s ease;;
+    -moz-transition: all 0.6s ease;;
+    -o-transition: all 0.6s ease;;
+    transition: all 0.6s ease;
 }
-/* .topButton:hover, .topButton:active{
-	 background-color: greenyellow; 
-	outline: none;
-	border: none;
-} */
+.topButton:hover, .topButton:active{
+	background-color: greenyellow;
+}
 
 .secondMenu{
 	background-color: #eeeeef;
