@@ -116,9 +116,7 @@ body > div {
 	background-size: contain;
 
 }
-.line{
-	background: url(images/line.png);
-}
+
 .secondTitle{
 	color: #40474e;
 	font-size: 16px;
@@ -143,7 +141,61 @@ body > div {
 	position:absolute;
 	top: 996px;
 	left: 0px;
+	text-align: center;
 
+}
+.people{
+	background: url(images/car.png) no-repeat center;
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+	background-size: cover;
+}
+.car{
+	background: url(images/velik.png) no-repeat center;
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+	background-size: cover;
+}
+.third-services{
+	display: inline-block;
+	padding: 80px 5px 0 5px;
+	width: 40%;
+	text-align: left;
+	
+
+}
+.third-services h5{
+	color: #40474e;
+	font-size: 16px;
+}
+.third-services article{
+	color:#787b80;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+	width: 300px;
+
+
+}
+.third-button{
+	display: inline-block;
+	font-family: 'Open sans', sans-serif;
+	font-size: 14px;
+	margin-top: 30px;
+	border-radius: 30px 30px 30px 30px;
+	width: auto;
+	height: auto;
+	color: white;
+	background-color: #50C3AF;
+	padding: 8px 40px;
+	border: none;
+	outline: none;
+	-webkit-transition: all 0.6s ease;;
+	-moz-transition: all 0.6s ease;;
+	-o-transition: all 0.6s ease;;
+	transition: all 0.6s ease;
 }
 @font-face {
 	font-family: Belinda;
