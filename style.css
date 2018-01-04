@@ -140,30 +140,34 @@ body > div {
 	height: 540px;
 	position:absolute;
 	top: 996px;
-	left: 0px;
+	left: 0;
 	text-align: center;
+
 
 }
 .people{
 	background: url(images/car.png) no-repeat center;
-	width: 300px;
-	height: 200px;
+	width: 350px;
+	height: 250px;
 	display: inline-block;
 	background-size: cover;
 }
 .car{
 	background: url(images/velik.png) no-repeat center;
-	width: 300px;
-	height: 200px;
+	width: 350px;
+	height: 250px;
 	display: inline-block;
 	background-size: cover;
 }
 .third-services{
 	display: inline-block;
 	padding: 80px 5px 0 5px;
-	width: 40%;
+	width: 30%;
 	text-align: left;
-	
+	margin-left:100px;
+	margin-right: 40px;
+
+
 
 }
 .third-services h5{
