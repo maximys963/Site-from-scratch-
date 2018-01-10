@@ -1,40 +1,33 @@
-// var thirdButtons = document.getElementsByClassName("third-button");
-// thirdButtons.addEventListener("mouseover", ChangeColor);
-// function ChangeColor (){
-//     for(var i=0; i<thirdButtons.length; i++){
-//         thirdButtons[i].style.backgroundColor = "greenyellow";
-//     }
-//
-// }
-//
+var buttons = document.getElementsByClassName("third-button");
+// button це типу масив в який зібрав всі ноди (теги) з классом third-button
+for(var i=0; i<buttons.length; i++){
 
+    buttons[i].addEventListener("mouseover", Greeting);
+    buttons[i].addEventListener("mouseout",Back);
+    buttons[i].addEventListener("mousedown",OnMousedown);
+    buttons[i].addEventListener("mouseup",OnMouseup);
 
-
-
-
-var button1 = document.getElementById("btn1");
-button1.addEventListener("mouseover", Greeting);
-button1.addEventListener("mouseout",Back);
-button1.addEventListener("mousedown",OnMousedown);
-button1.addEventListener("mouseup",OnMouseup);
+// навішую на кожну ноду обработчик событий
+}
 function Greeting(){
     console.log("hello btn");
-    button1.style.backgroundColor = "#ADFF2F"
-    button1.style.transitionDuration = "0.6s";
+    this.style.backgroundColor = "#ADFF2F"
+   this.style.transitionDuration = "0.6s";
 
 }
 function Back(){
     console.log("hello btn");
-    button1.style.backgroundColor = "#50C3AF"
-    button1.style.transitionDuration = "0.6s";
+    this.style.backgroundColor = "#50C3AF"
+   this.style.transitionDuration = "0.6s";
 }
 function OnMousedown(){
     console.log("hello btn");
-    button1.style.backgroundColor = "#98FB98"
-    button1.style.transitionDuration = "0.1s";
+    this.style.backgroundColor = "#98FB98"
+    this.style.transitionDuration = "0.1s";
 }
 function OnMouseup () {
     console.log("hello btn");
-    button1.style.backgroundColor = "#ADFF2F"
-    button1.style.transitionDuration = "0.5s";
+    this.style.backgroundColor = "#ADFF2F"
+    this.style.transitionDuration = "0.5s";
 }
+// безпосердньо функції, які спрацьовують на 4 стани кнопки, this зберігає адресу на потрібну ноду (тег)
