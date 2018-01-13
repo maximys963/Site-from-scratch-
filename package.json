@@ -1,0 +1,22 @@
+{
+  "name": "site-from-scratch-",
+  "version": "1.0.0",
+  "description": "Our little project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximys963/Site-from-scratch-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximys963/Site-from-scratch-/issues"
+  },
+  "homepage": "https://github.com/maximys963/Site-from-scratch-#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
