@@ -260,7 +260,7 @@ body > div {
 .five-container{
 	display: inline-block;
 	width: 250px;
-	margin-top: 60px;
+	margin-top: 50px;
 	text-align: left;
 	margin-left:45px;
 	margin-right:45px;
@@ -288,8 +288,8 @@ margin-top: 20px;
 }
 
 .five-image{
-	height: 180px;
-	width: 240px;
+	height: 200px;
+	width: 250px;
 	background-color: #787b80;
 }
 
