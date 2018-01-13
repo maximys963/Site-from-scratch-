@@ -254,10 +254,45 @@ body > div {
 	top:1856px;
 	width: 100%;
 	background-color: #f5f5f5;
-	height: 420px;
-
+	height: 440px;
+	text-align: center;
+}
+.five-container{
+	display: inline-block;
+	width: 250px;
+	margin-top: 60px;
+	text-align: left;
+	margin-left:45px;
+	margin-right:45px;
 
 }
+.five-container  h5{
+	color: #40474e;
+	font-size: 20px;
+	display: inline-block;
+	margin-top:15px;
+	margin-bottom:15px;
+
+}
+.five-container article{
+	color:#787b80;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 26px;
+ }
+.five-container a {
+color: #50c3af;
+font-size: 14px;
+display: inline-block;
+margin-top: 20px;
+}
+
+.five-image{
+	height: 180px;
+	width: 240px;
+	background-color: #787b80;
+}
+
 @font-face {
 	font-family: Belinda;
 	src: url(fonts/belinda.otf);
