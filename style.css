@@ -210,7 +210,6 @@ body > div {
 	height: 320px;
 	background-color:#eeeeef ;
 	text-align: center;
-
 }
 .fourth-services{
 	margin-top: 25px;
@@ -223,7 +222,6 @@ body > div {
 	display: inline-block;
 	font-size: 14px;
 	line-height: 26px;
-
 }
 .fourthSection h5{
 	color: #40474e;
@@ -264,7 +262,6 @@ body > div {
 	text-align: left;
 	margin-left:45px;
 	margin-right:45px;
-
 }
 .five-container  h5{
 	color: #40474e;
@@ -272,7 +269,6 @@ body > div {
 	display: inline-block;
 	margin-top:15px;
 	margin-bottom:15px;
-
 }
 .five-container article{
 	color:#787b80;
@@ -300,7 +296,6 @@ margin-top: 20px;
 	height:440px;
 	background-color:#eeeeef;
 	text-align: center;
-
 }
 .six-title{
 	height: 70px;
@@ -321,16 +316,15 @@ margin-top: 20px;
 	display: inline-block;
 	font-size: 14px;
 	line-height: 26px;
-
-
 }
 .six-container{
 	width:395px;
 	height: 200px;
 	display:inline-block;
-	margin-left:20px;
-	margin-right: 20px;
+	margin-left:70px;
+	margin-right: 70px;
 	text-align: left;
+	margin-top: 60px;
 }
 .six-icon1{
 	background: url("icons/message.png") no-repeat center ;
@@ -346,7 +340,6 @@ margin-top: 20px;
 	background-size: contain;
 	display: inline-block;
 }
-
 @font-face {
 	font-family: Belinda;
 	src: url(fonts/belinda.otf);
