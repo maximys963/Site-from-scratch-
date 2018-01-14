@@ -295,10 +295,47 @@ margin-top: 20px;
 .six-section{
 	position:absolute;
 	top:2296px;
+	left: 0;
 	width: 100%;
 	height:440px;
-	background-color:#eeeeef ;
+	background-color:#eeeeef;
+	text-align: center;
 
+}
+.six-title{
+	height: 100px;
+	width:300px;
+}
+.six-title h5{
+	color: #40474e;
+	font-size: 20px;
+	display: inline-block;
+	padding-left: 10px;
+}
+.six-container article{
+	color:#787b80;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 26px;
+}
+.six-container{
+	width:30%;
+	height: 200px;
+	display:inline-block;
+}
+.six-icon1{
+	background: url("icons/message.png") no-repeat center ;
+	width: 25px;
+	height:25px;
+	background-size: contain;
+	display: inline-block;
+}
+.six-icon2{
+	background: url("icons/mail.png") no-repeat center;
+	width: 25px;
+	height:25px;
+	background-size: contain;
+	display: inline-block;
 }
 
 @font-face {
