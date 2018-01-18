@@ -93,7 +93,7 @@ body > div {
 	text-align: center;
 }
 .professionals{
-	background: url(images/user-group.png) no-repeat center;
+	background: url(icons/quality.png) no-repeat center;
 	width: 50px;
 	height: 50px;
 	display: inline-block;
@@ -101,7 +101,7 @@ body > div {
 
 }
 .amateurs{
-	background: url(images/heart.png) no-repeat center;
+	background: url(icons/favorite.png) no-repeat center;
 	width: 50px;
 	height: 50px;
 	display: inline-block;
@@ -109,7 +109,7 @@ body > div {
 
 }
 .foreveryone{
-	background: url(images/headset.png) no-repeat center;
+	background: url(icons/headset.png) no-repeat center;
 	width: 50px;
 	height: 50px;
 	display: inline-block;
@@ -128,10 +128,21 @@ body > div {
 }
 .services-item{
 	display: inline-block;
-	padding: 80px 5px 0 25px;
+	padding: 70px 5px 0 25px;
 	/* float: left; */
 	width: 20%;
 	text-align: center;
+	margin-left: 10px;
+	margin-right: 25px;
+}
+.services-item h5{
+	display: inline-block;
+	padding-bottom:20px;
+	border-bottom: 2px solid #e2e3e4;
+	width: 220px;
+}
+.line{
+	margin-top: -20px;
 }
 .thirdSection{
 	background-color: #f5f5f5;
