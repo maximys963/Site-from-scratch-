@@ -227,7 +227,7 @@ body > div {
 	text-align: center;
 }
 .fourth-services{
-	margin-top: 25px;
+	margin-top: 15px;
 	display: inline-block;
 	text-align: left;
 	width: 70%;
@@ -237,11 +237,16 @@ body > div {
 	display: inline-block;
 	font-size: 14px;
 	line-height: 26px;
+
 }
 .fourthSection h5{
 	color: #40474e;
 	font-size: 20px;
 	display: inline-block;
+	border-bottom: 2px solid #e2e3e4;
+	width:600px;
+	margin-bottom:20px;
+	padding-bottom:20px;
 }
 .four-button{
 	display: inline-block;
