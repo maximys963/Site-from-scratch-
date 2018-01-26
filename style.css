@@ -389,9 +389,22 @@ margin-top: 20px;
 
 }
 .seven-container{
-
+	display: inline-block;
+	width:400px;
+	height: 340px;
+	margin-top:60px;
+	vertical-align: top;
 }
 .seven-image{
+background-color:#787b80;
+}
+.seven-container h5{
+	color: #40474e;
+	font-size: 20px;
+	border-bottom: 2px solid #e2e3e4;
+	display: inline-block;
+	padding-bottom: 25px;
+
 
 }
 .seven-container article {
@@ -399,6 +412,7 @@ margin-top: 20px;
 	display: inline-block;
 	font-size: 14px;
 	line-height: 26px;
+
 
 }
 @font-face {
