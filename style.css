@@ -158,14 +158,14 @@ body > div {
 
 }
 .people{
-	background: url(images/car.png) no-repeat center;
+	background: url(images/forest2.png) no-repeat center;
 	width: 350px;
 	height: 250px;
 	display: inline-block;
 	background-size: cover;
 }
 .car{
-	background: url(images/velik.png) no-repeat center;
+	background: url(images/camp.png) no-repeat center;
 	width: 350px;
 	height: 250px;
 	display: inline-block;
@@ -413,7 +413,8 @@ margin-top: 20px;
 	margin-right: 40px;
 }
 .seven-image{
-background-color:#787b80;
+	background: url("images/hand.png") center no-repeat;
+	background-size: cover;
 }
 .seven-container h5{
 	color: #40474e;
