@@ -310,10 +310,24 @@ margin-top: 20px;
 
 }
 
-.five-image{
+.five-image-3{
 	height: 200px;
 	width: 250px;
-	background-color: #787b80;
+	background: url("images/coffee.png") center no-repeat;
+	background-size: cover;
+
+}
+.five-image-1{
+	height: 200px;
+	width: 250px;
+	background: url("images/mount.png") center no-repeat;
+	background-size: cover;
+}
+.five-image-2{
+	height: 200px;
+	width: 250px;
+	background: url("images/girl.png") center no-repeat;
+	background-size: cover;
 }
 .five-arrow{
 	display: inline-block;
@@ -390,10 +404,13 @@ margin-top: 20px;
 }
 .seven-container{
 	display: inline-block;
-	width:400px;
+	width:430px;
 	height: 340px;
 	margin-top:60px;
 	vertical-align: top;
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 40px;
 }
 .seven-image{
 background-color:#787b80;
@@ -404,6 +421,8 @@ background-color:#787b80;
 	border-bottom: 2px solid #e2e3e4;
 	display: inline-block;
 	padding-bottom: 25px;
+	margin-top:0;
+	margin-bottom: 20px;
 
 
 }
