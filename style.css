@@ -440,7 +440,7 @@ margin-top: 20px;
 	top:3191px;
 	left: 0;
 	width: 100%;
-	height:360px;
+	height:320px;
 	background-color: #50c3af;
 	text-align: center;
 }
@@ -467,7 +467,7 @@ margin-top: 20px;
 
 }
 .f-title{
-    margin-top:60px;
+    margin-top:70px;
     width:420px;
     height:60px;
     text-align: center;
@@ -481,9 +481,9 @@ margin-top: 20px;
 .list-4{
     display:inline-block;
     font-size:40px;
-    margin-right: 50px;
-    margin-left:50px;
-    Margin-top:50px;
+    margin-right: 88px;
+    margin-left:75px;
+    Margin-top:30px;
 
 
 }
@@ -494,14 +494,28 @@ margin-top: 20px;
 .list-1{
     font-family: Pithon;
 }
-.list4{
-    font-family: Max;
+.list-4{
+    font-family: Mix;
 }
 .eight-container{
 text-align: center;
 
 }
-
+.bottom{
+    position: absolute;
+    top:3511px;
+    left:0;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 80px;
+}
+.maxsoft{
+    display:inline-block;
+    margin-top: 25px;
+    color:#787b80;
+    font-size: 14px;
+    margin-left: 195px;
+}
 
 @font-face {
 	font-family: Belinda;
@@ -513,8 +527,8 @@ text-align: center;
 
 }
 @font-face {
-    font-family: Max;
-    src: url(fonts/11386.ttf);
+    font-family: Mix;
+    src: url(fonts/11362.ttf);
 }
 @font-face {
 font-family: Pithon;
